@@ -1,0 +1,216 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 352 224 520 240)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "MISO" (rect 5 0 32 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 360 144 528 160)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "Clock" (rect 5 0 34 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 352 240 528 256)
+	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
+	(text "MOSI" (rect 5 4 33 16)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 176 8)(pt 124 8))
+		(line (pt 124 12)(pt 98 12))
+		(line (pt 124 4)(pt 98 4))
+		(line (pt 124 4)(pt 124 12))
+		(line (pt 98 12)(pt 94 8))
+		(line (pt 94 8)(pt 98 4))
+		(line (pt 98 4)(pt 94 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 352 256 528 272)
+	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
+	(text "SCLK" (rect 5 4 34 16)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 176 8)(pt 124 8))
+		(line (pt 124 12)(pt 98 12))
+		(line (pt 124 4)(pt 98 4))
+		(line (pt 124 4)(pt 124 12))
+		(line (pt 98 12)(pt 94 8))
+		(line (pt 94 8)(pt 98 4))
+		(line (pt 98 4)(pt 94 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 352 272 528 288)
+	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
+	(text "SS" (rect 5 4 20 16)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 176 8)(pt 124 8))
+		(line (pt 124 12)(pt 98 12))
+		(line (pt 124 4)(pt 98 4))
+		(line (pt 124 4)(pt 124 12))
+		(line (pt 98 12)(pt 94 8))
+		(line (pt 94 8)(pt 98 4))
+		(line (pt 98 4)(pt 94 8))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 448 176 480 192)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "inst" (rect 3 5 20 17)(font "Arial" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 544 80 768 312)
+	(text "SPI_qsys" (rect 84 -1 150 15)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 8 216 31 228)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 41 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 84 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "rs232_MISO" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "rs232_MISO" (rect 4 141 73 155)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 80 152))
+	)
+	(port
+		(pt 0 168)
+		(output)
+		(text "rs232_MOSI" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "rs232_MOSI" (rect 4 157 73 171)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 80 168))
+	)
+	(port
+		(pt 0 184)
+		(output)
+		(text "rs232_SCLK" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "rs232_SCLK" (rect 4 173 75 187)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 80 184))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "rs232_SS_n" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "rs232_SS_n" (rect 4 189 74 203)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 80 200))
+	)
+	(drawing
+		(text "clk" (rect 65 43 82 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 85 67 99 79)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 51 83 84 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 85 107 121 119)(font "Arial" (color 0 0 0)))
+		(text "rs232" (rect 48 123 85 138)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "MISO" (rect 85 147 112 159)(font "Arial" (color 0 0 0)))
+		(text "MOSI" (rect 85 163 112 175)(font "Arial" (color 0 0 0)))
+		(text "SCLK" (rect 85 179 113 191)(font "Arial" (color 0 0 0)))
+		(text "SS_n" (rect 85 195 110 207)(font "Arial" (color 0 0 0)))
+		(text " SPI_qsys " (rect 179 216 234 228)(font "Arial" ))
+		(line (pt 81 52)(pt 81 76))
+		(line (pt 82 52)(pt 82 76))
+		(line (pt 81 92)(pt 81 116))
+		(line (pt 82 92)(pt 82 116))
+		(line (pt 81 132)(pt 81 204))
+		(line (pt 82 132)(pt 82 204))
+		(line (pt 80 32)(pt 144 32))
+		(line (pt 144 32)(pt 144 216))
+		(line (pt 80 216)(pt 144 216))
+		(line (pt 80 32)(pt 80 216))
+		(line (pt 0 0)(pt 224 0))
+		(line (pt 224 0)(pt 224 232))
+		(line (pt 0 232)(pt 224 232))
+		(line (pt 0 0)(pt 0 232))
+	)
+)
+(connector
+	(pt 544 192)
+	(pt 464 192)
+)
+(connector
+	(pt 528 264)
+	(pt 544 264)
+)
+(connector
+	(pt 544 232)
+	(pt 520 232)
+)
+(connector
+	(pt 544 248)
+	(pt 528 248)
+)
+(connector
+	(pt 544 280)
+	(pt 528 280)
+)
+(connector
+	(pt 544 152)
+	(pt 528 152)
+)

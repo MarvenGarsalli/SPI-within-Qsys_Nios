@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Qsys_Proj">
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_jtag_uart_0:jtag_uart_0|QS_beforedelete_jtag_uart_0_scfifo_w:the_QS_beforedelete_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_nios2_qsys_0:nios2_qsys_0|QS_beforedelete_nios2_qsys_0_nios2_oci:the_QS_beforedelete_nios2_qsys_0_nios2_oci|QS_beforedelete_nios2_qsys_0_nios2_oci_im:the_QS_beforedelete_nios2_qsys_0_nios2_oci_im|QS_beforedelete_nios2_qsys_0_traceram_lpm_dram_bdp_component_module:QS_beforedelete_nios2_qsys_0_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_n802.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_nios2_qsys_0:nios2_qsys_0|QS_beforedelete_nios2_qsys_0_nios2_oci:the_QS_beforedelete_nios2_qsys_0_nios2_oci|QS_beforedelete_nios2_qsys_0_nios2_ocimem:the_QS_beforedelete_nios2_qsys_0_nios2_ocimem|QS_beforedelete_nios2_qsys_0_ociram_lpm_dram_bdp_component_module:QS_beforedelete_nios2_qsys_0_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_fj92.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_nios2_qsys_0:nios2_qsys_0|QS_beforedelete_nios2_qsys_0_register_bank_a_module:QS_beforedelete_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_2ph1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_nios2_qsys_0:nios2_qsys_0|QS_beforedelete_nios2_qsys_0_register_bank_b_module:QS_beforedelete_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_3ph1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_jtag_uart_0:jtag_uart_0|QS_beforedelete_jtag_uart_0_scfifo_r:the_QS_beforedelete_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|QS_beforedelete|QS_beforedelete_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_0rd1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

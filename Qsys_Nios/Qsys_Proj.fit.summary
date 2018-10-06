@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jan 27 09:56:56 2018
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : Qsys_Proj
+Top-level Entity Name : QS_beforedelete
+Family : Cyclone III
+Device : EP3C25F324C8
+Timing Models : Final
+Total logic elements : 1,489 / 24,624 ( 6 % )
+    Total combinational functions : 1,404 / 24,624 ( 6 % )
+    Dedicated logic registers : 795 / 24,624 ( 3 % )
+Total registers : 795
+Total pins : 17 / 216 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 44,032 / 608,256 ( 7 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

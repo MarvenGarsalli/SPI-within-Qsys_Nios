@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jan 27 09:56:41 2018
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : Qsys_Proj
+Top-level Entity Name : QS_beforedelete
+Family : Cyclone III
+Total logic elements : 1,541
+    Total combinational functions : 1,398
+    Dedicated logic registers : 803
+Total registers : 803
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 44,032
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

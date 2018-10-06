@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="111" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="355" />
+   <clocksource preferredWidth="355" />
+   <frequency preferredWidth="336" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Project,Library/Interface Protocols/Serial,Library,Library/Bridges/Memory Mapped,Library/Interface Protocols,Library/Bridges" />
+ <window width="1358" height="700" x="0" y="0" />
+ <hdlexample language="VHDL" />
+</preferences>
